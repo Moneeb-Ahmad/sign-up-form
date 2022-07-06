@@ -9,10 +9,17 @@
 
 body {
   display: flex;
-  font-family: "Times New Roman", serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell,
+  'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f9fafb;
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #596D48;
 }
 
 .left {
@@ -41,7 +48,8 @@ body {
 }
 .caption{
   font-size: 16px;
-  font-family: "Times New Roman", serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell,
+  'Open Sans', 'Helvetica Neue', sans-serif;
   margin-bottom: 8px;
 }
 
@@ -55,5 +63,30 @@ body {
   background-color: rgb(0,0,0,.1);
   padding: 10% 15% 50px 32px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.form-contents {
+  background-color: #FFFFFF;
+}
+
+.bottom-wrapper {
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.create {
+  background-color: #596D48;
+  color: white;
+  font-weight: normal;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 8px;
+  padding: 4px 32px;
+  margin-bottom: 2%;
+  border: none;
+  width: 210px;
+  height: 45px;
 }
