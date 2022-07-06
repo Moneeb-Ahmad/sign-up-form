@@ -68,8 +68,16 @@ a {
 
 .form-contents {
   background-color: #FFFFFF;
-}
 
+}
+fieldset {
+  margin: 0px;
+}
+input:focus,
+textarea:focus {
+  background   : rgba(0,0,0,.1);
+  border-radius: 5px;
+}
 .bottom-wrapper {
   padding-left: 32px;
   display: flex;
