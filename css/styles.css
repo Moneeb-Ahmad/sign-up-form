@@ -22,6 +22,24 @@ a {
   color: #596D48;
 }
 
+fieldset {
+  margin: 0px;
+}
+
+label {
+ color: #737982;
+}
+
+input {
+  border-color: #E5E7EB;
+  border-radius: 3px;
+}
+
+input:focus,
+textarea:focus {
+  border-radius: 3px;
+}
+
 .left {
   background : url('../images/personal-greenery-image.jpg');
   height: 100%;
@@ -70,13 +88,8 @@ a {
   background-color: #FFFFFF;
 
 }
-fieldset {
-  margin: 0px;
-}
-input:focus,
-textarea:focus {
-  background   : rgba(0,0,0,.1);
-  border-radius: 5px;
+.input-container{
+  display: flex;
 }
 .bottom-wrapper {
   padding-left: 32px;
